@@ -1,27 +1,15 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 #myCarousel {
-  height: 550px;
+  max-width: 640px;
+  margin: 0 auto;
 }
 
 #myCarousel .f-carousel__slide {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  width: clamp(150px, 30vw, 250px);
-  height: clamp(150px, 40vw, 350px);
-}
-
-#myCarousel img {
-  --x: calc(var(--progress) * 100%);
-  --y: calc((var(--progress) + 0.15) * 200%);
-  --rot: calc(var(--progress) * 60deg);
-
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-
-  transform: translate(var(--x), var(--y)) rotate(var(--rot));
-  transform-origin: 0% 100%;
-
-  box-shadow: 0 10px 50px 10px rgba(0, 0, 0, 0.5);
 }

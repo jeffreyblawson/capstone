@@ -214,59 +214,43 @@
       </div>
 
       <!-- Grid for photos -->
-      <div class="mb-8">
+      <div w3-center>
         <div class="f-carousel" id="myCarousel">
-          <div class="f-carousel__slide">
+          <div class="f-carousel__slide" data-thumb-src="img/mapadinner.jpg">
             <img
-              data-lazy-src="img/friends.jpg"
-              width="300"
-              height="300"
+              width="640"
+              height="480"
               alt=""
-            />
-          </div>
-          <div class="f-carousel__slide">
-            <img
               data-lazy-src="img/mapadinner.jpg"
-              width="300"
-              height="300"
-              alt=""
             />
           </div>
-          <div class="f-carousel__slide">
-            <img data-lazy-src="img/mapa.jpg" width="300" height="300" alt="" />
+          <div class="f-carousel__slide" data-thumb-src="img/gym.jpg">
+            <img width="640" height="480" alt="" data-lazy-src="img/gym.jpg" />
           </div>
-          <div class="f-carousel__slide">
-            <img data-lazy-src="img/pic9.jpg" width="300" height="300" alt="" />
+          <div class="f-carousel__slide" data-thumb-src="img/mapa.jpg">
+            <img width="640" height="480" alt="" data-lazy-src="img/mapa.jpg" />
+          </div>
+          <div class="f-carousel__slide" data-thumb-src="img/pic2.jpg">
+            <img width="640" height="480" alt="" data-lazy-src="img/pic2.jpg" />
+          </div>
+          <div class="f-carousel__slide" data-thumb-src="img/pic5.jpg">
+            <img width="640" height="480" alt="" data-lazy-src="img/pic5.jpg" />
+          </div>
+          <div class="f-carousel__slide" data-thumb-src="img/friends.jpg">
+            <img
+              width="640"
+              height="480"
+              alt=""
+              data-lazy-src="img/friends.jpg"
+            />
+          </div>
+          <div class="f-carousel__slide" data-thumb-src="img/pic6.jpg">
+            <img width="640" height="480" alt="" data-lazy-src="img/pic6.jpg" />
+          </div>
+          <div class="f-carousel__slide" data-thumb-src="img/pic8.jpg">
+            <img width="640" height="480" alt="" data-lazy-src="img/pic8.jpg" />
           </div>
         </div>
-      </div>
-
-      <div class="w3-padding-64 w3-content" id="photos">
-        <h2 class="w3-text-light-grey">My PHOTOS</h2>
-        <hr style="width: 200px" class="w3-opacity" />
-
-        <div class="w3-row-padding" style="margin: 0 -16px">
-          <div class="w3-half">
-            <img src="img/friends.jpg" style="width: 100%" />
-            <img src="img/mapadinner.jpg" style="width: 100%" />
-            <img src="img/mapa.jpg" style="width: 100%" />
-            <img src="img/pic9.jpg" style="width: 100%" />
-            <img src="img/pic6.jpg" style="width: 100%" />
-            <img src="img/pic7.jpg" style="width: 100%" />
-          </div>
-
-          <div class="w3-half">
-            <img src="img/gym.jpg" style="width: 100%" />
-            <img src="img/IMG20240125194204.jpg" style="width: 100%" />
-            <img src="img/pic1.jpg" style="width: 100%" />
-            <img src="img/pic2.jpg" style="width: 100%" />
-            <img src="img/pic3.jpg" style="width: 100%" />
-            <img src="img/pic5.jpg" style="width: 100%" />
-            <img src="img/pic8.jpg" style="width: 100%" />
-          </div>
-          <!-- End photo grid -->
-        </div>
-        <!-- End Portfolio Section -->
       </div>
 
       <!-- Contact Section -->
@@ -370,6 +354,7 @@
       <!-- END PAGE CONTENT -->
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.thumbs.umd.js"></script>
     <script type="module" src="./index.js"></script>
   </body>
 </html>
