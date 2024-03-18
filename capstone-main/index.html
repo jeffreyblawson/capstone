@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jeffrey B. Lawson</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
+    />
+
+    <style>
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Montserrat", sans-serif;
+      }
+      .w3-row-padding img {
+        margin-bottom: 12px;
+      }
+      /* Set the width of the sidebar to 120px */
+      .w3-sidebar {
+        width: 120px;
+        background: #222;
+      }
+      /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+      #main {
+        margin-left: 120px;
+      }
+      /* Remove margins from "page content" on small screens */
+      @media only screen and (max-width: 600px) {
+        #main {
+          margin-left: 0;
+        }
+      }
+    </style>
+  </head>
+  <body class="w3-black">
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+      <!-- Avatar image in top left corner -->
+      <img src="img/selfie.jpg" style="width: 100%" />
+      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+        <i class="fa fa-home w3-xxlarge"></i>
+        <p>HOME</p>
+      </a>
+      <a
+        href="#projects"
+        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+      >
+        <i class="fa fa-user w3-xxlarge"></i>
+        <p>Projects</p>
+      </a>
+
+      <a
+        href="#about"
+        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+      >
+        <i class="fa fa-user w3-xxlarge"></i>
+        <p>ABOUT / RESUME</p>
+      </a>
+      <a
+        href="#photos"
+        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+      >
+        <i class="fa fa-eye w3-xxlarge"></i>
+        <p>PHOTOS</p>
+      </a>
+      <a
+        href="#contact"
+        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+      >
+        <i class="fa fa-envelope w3-xxlarge"></i>
+        <p>CONTACT</p>
+      </a>
+    </nav>
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+      <div
+        class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small"
+      >
+        <a href="#" class="w3-bar-item w3-button" style="width: 20% !important"
+          >HOME</a
+        >
+
+        <a
+          href="#projects"
+          class="w3-bar-item w3-button"
+          style="width: 20% !important"
+        >
+          Projects
+        </a>
+
+        <a
+          href="#about"
+          class="w3-bar-item w3-button"
+          style="width: 20% !important"
+          >ABOUT / RESUME</a
+        >
+        <a
+          href="#photos"
+          class="w3-bar-item w3-button"
+          style="width: 20% !important"
+          >PHOTOS</a
+        >
+        <a
+          href="#contact"
+          class="w3-bar-item w3-button"
+          style="width: 20% !important"
+          >CONTACT</a
+        >
+      </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+      <!-- Header/Home -->
+      <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+        <h1 class="w3-jumbo">
+          <span class="w3-hide-small">I'm</span> Jeffrey Lawson.
+        </h1>
+        <p>Airman and Digital Designer.</p>
+        <img
+          src="img/bwselfie.jpg"
+          alt="boy"
+          class="w3-image"
+          width="992"
+          height="1108"
+        />
+      </header>
+      <!-- Portfolio Section -->
+
+      <div class="w3-row-padding" id="projects">
+        <h2>Pin Ball Project</h2>
+        <div class="w3-card-4 w3-col w3-mobile" style="width: 33%">
+          <header class="w3-container w3-light-grey">
+            <h3>User reasearch and Wireframing</h3>
+          </header>
+          <div class="w3-container">
+            <p class="w3-center">Brain Storming / Design</p>
+            <hr />
+            <img
+              src="../capstone-main/Portfolio/img/paperwireframe.png"
+              alt="Avatar"
+              class="w3-margin-bottom w3-margin-right"
+              style="width: 100%; height: 230px"
+            />
+            <p></p>
+            <br />
+          </div>
+          <a
+            href="../capstone-main/Portfolio/project1.html"
+            class="w3-button w3-block w3-dark-grey"
+            >+ Details</a
+          >
+        </div>
+
+        <div class="w3-card-4 w3-col w3-mobile" style="width: 33%">
+          <header class="w3-container w3-light-grey">
+            <h3>Low Fidelity & Prototyping</h3>
+          </header>
+          <div class="w3-container">
+            <p class="w3-center">Usability Research</p>
+            <hr />
+            <img
+              src="/capstone-main/img/Animation.gif"
+              alt="Avatar"
+              class="w3-margin-bottom w3-margin-right"
+              style="width: 100%; height: 230px"
+            />
+            <p></p>
+            <br />
+          </div>
+          <a
+            href="/capstone-main/Portfolio/project2.html"
+            class="w3-button w3-block w3-dark-grey"
+            >+ Details</a
+          >
+        </div>
+
+        <div class="w3-card-4 w3-col w3-mobile" style="width: 33%">
+          <header class="w3-container w3-light-grey">
+            <h3>High-Fidelity & Final touches</h3>
+          </header>
+          <div class="w3-container">
+            <p class="w3-center">Conclusion</p>
+            <hr />
+            <img
+              src="/capstone-main/img/HiFI anime.gif"
+              alt="Avatar"
+              class="w3-margin-bottom w3-margin-right"
+              style="width: 100%; height: 230px"
+            />
+            <p></p>
+            <br />
+          </div>
+          <a
+            href="/capstone-main/Portfolio/project3.html"
+            class="w3-button w3-block w3-dark-grey"
+            >+ Details</a
+          >
+        </div>
+      </div>
+      <!-- end of Projects Section-->
+      <!-- About Section -->
+      <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+        <h2 class="w3-text-light-grey">Jeffrey Lawson</h2>
+        <hr style="width: 200px" class="w3-opacity" />
+        <p>
+          As a kid I grew up with a weekly allowance, but my allowance wasn't a
+          cash value. Every week if I was good I was lucky enough to have my mom
+          take me to blockbuster and pick one game to rent for my GameCube. I
+          grew up playing video games. So much that my concentration right now
+          is in digital design and game developlment. Technology always
+          impressed me the most. It was up there with my love for sports. I
+          showed intrest in science in elementary and middle school. In
+          highschool I graduated our career academy in robotics. I left
+          highschool with a 3.0 GPA and ended up going to the United States
+          Airforce where I now work as a production controller for the
+          maintenance of our planes. This also includes being a avionics
+          Specialist. I have nothing but gratitude and grace for both of my
+          Parents. My math teacher father and business woman Mother. I dedicate
+          everthing to them.
+        </p>
+        <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+        <p class="w3-wide">User Interface Design</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height: 28px; width: 95%"></div>
+        </div>
+        <p class="w3-wide">Web Design</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height: 28px; width: 85%"></div>
+        </div>
+        <p class="w3-wide">Photoshop</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height: 28px; width: 80%"></div>
+        </div>
+        <br />
+
+        <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+          <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">TBD</span><br />
+            Partners
+          </div>
+          <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">5</span><br />
+            Projects Done
+          </div>
+          <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">252+</span><br />
+            Certificate hours
+          </div>
+          <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">14</span><br />
+            Certificate Courses
+          </div>
+        </div>
+        <a href="../resume/INDEX.HTML">
+          <button class="w3-button w3-light-grey w3-padding-large w3-section">
+            <i class="fa fa-download"></i> View Resume
+          </button>
+        </a>
+
+        <!-- End About Section -->
+      </div>
+
+      <!-- Grid for photos -->
+      <div w3-center id="photos">
+        <div class="f-carousel" id="myCarousel">
+          <div class="f-carousel__slide" data-thumb-src="img/mapadinner.jpg">
+            <img
+              width="640"
+              height="480"
+              alt=""
+              data-lazy-src="img/mapadinner.jpg"
+            />
+          </div>
+          <div class="f-carousel__slide" data-thumb-src="img/gym.jpg">
+            <img width="640" height="480" alt="" data-lazy-src="img/gym.jpg" />
+          </div>
+          <div class="f-carousel__slide" data-thumb-src="img/mapa.jpg">
+            <img width="640" height="480" alt="" data-lazy-src="img/mapa.jpg" />
+          </div>
+          <div class="f-carousel__slide" data-thumb-src="img/pic2.jpg">
+            <img width="640" height="480" alt="" data-lazy-src="img/pic2.jpg" />
+          </div>
+          <div class="f-carousel__slide" data-thumb-src="img/pic5.jpg">
+            <img width="640" height="480" alt="" data-lazy-src="img/pic5.jpg" />
+          </div>
+          <div class="f-carousel__slide" data-thumb-src="img/friends.jpg">
+            <img
+              width="640"
+              height="480"
+              alt=""
+              data-lazy-src="img/friends.jpg"
+            />
+          </div>
+          <div class="f-carousel__slide" data-thumb-src="img/pic6.jpg">
+            <img width="640" height="480" alt="" data-lazy-src="img/pic6.jpg" />
+          </div>
+          <div class="f-carousel__slide" data-thumb-src="img/pic8.jpg">
+            <img width="640" height="480" alt="" data-lazy-src="img/pic8.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+        <h2 class="w3-text-light-grey">Contact Me</h2>
+        <hr style="width: 200px" class="w3-opacity" />
+
+        <div class="w3-section">
+          <p>
+            <i
+              class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"
+            ></i>
+            California, US
+          </p>
+          <p>
+            <i
+              class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"
+            ></i>
+            Phone: /729-0448
+          </p>
+          <p>
+            <i
+              class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"
+            >
+            </i>
+            Email: jeffreyboevilawson@gmail.com
+          </p>
+        </div>
+        <br />
+        <p>Let's get in touch. Send me a message:</p>
+
+        <form action="/action_page.php" target="jeffreyboevilawson@gmail.com">
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Name"
+              required
+              name="Name"
+            />
+          </p>
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Email"
+              required
+              name="Email"
+            />
+          </p>
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Subject"
+              required
+              name="Subject"
+            />
+          </p>
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Message"
+              required
+              name="Message"
+            />
+          </p>
+          <p>
+            <button
+              class="w3-button w3-light-grey w3-padding-large"
+              type="submit"
+            >
+              <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            </button>
+          </p>
+        </form>
+        <!-- End Contact Section -->
+      </div>
+
+      <!-- Footer -->
+      <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p class="w3-medium">
+          Powered by
+          <a
+            href="https://www.w3schools.com/w3css/default.asp"
+            target="_blank"
+            class="w3-hover-text-green"
+            >w3.css</a
+          >
+        </p>
+        <!-- End footer -->
+      </footer>
+
+      <!-- END PAGE CONTENT -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.thumbs.umd.js"></script>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
